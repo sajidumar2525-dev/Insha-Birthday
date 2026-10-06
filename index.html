@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <meta name="theme-color" content="#fff3f7">
+
+    <title>Insha's Birthday Invitation 🎀</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+
+        <span class="sparkle s1">✦</span>
+        <span class="sparkle s2">✧</span>
+        <span class="sparkle s3">✦</span>
+        <span class="sparkle s4">✧</span>
+        <span class="sparkle s5">✦</span>
+
+        <span class="balloon balloon1">🎈</span>
+        <span class="balloon balloon2">🎈</span>
+
+    </div>
+
+
+    <!-- =========================
+         OPENING
+    ========================== -->
+
+    <main id="openingScreen" class="screen active">
+
+        <div class="opening-content">
+
+            <div class="tiny-stars">
+                ✦　✧　✦
+            </div>
+
+            <p class="eyebrow">
+                A LITTLE CELEBRATION AWAITS
+            </p>
+
+            <h1>
+                Someone<br>
+                very special<br>
+                is turning
+            </h1>
+
+            <div class="two">
+                TWO
+            </div>
+
+            <p class="little-text">
+                🎀 And you're invited 🎀
+            </p>
+
+            <button id="openButton" class="main-button">
+                Open My Invitation
+                <span>💌</span>
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         NAME
+    ========================== -->
+
+    <main id="nameScreen" class="screen">
+
+        <div class="name-card">
+
+            <div class="envelope-icon">
+                💌
+            </div>
+
+            <p class="eyebrow">
+                BEFORE WE BEGIN...
+            </p>
+
+            <h2>
+                What's your name?
+            </h2>
+
+            <p class="description">
+                We want to make this little invitation
+                especially for you. ✨
+            </p>
+
+            <div class="input-wrapper">
+
+                <input
+                    id="guestName"
+                    type="text"
+                    placeholder="Enter your name"
+                    maxlength="30"
+                    autocomplete="name"
+                >
+
+            </div>
+
+            <p id="nameError" class="error">
+                Please enter your name 💗
+            </p>
+
+            <button id="continueButton" class="main-button">
+                Continue
+                <span>✨</span>
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         FULL INVITATION
+    ========================== -->
+
+    <main id="invitationScreen" class="invitation-page">
+
+        <!-- HERO -->
+
+        <section class="invite-section hero-section">
+
+            <div class="section-inner reveal">
+
+                <div class="welcome-small">
+                    ✨ Welcome, <span id="displayGuestName"></span> ✨
+                </div>
+
+                <p class="eyebrow">
+                    YOU'RE INVITED TO
+                </p>
+
+                <h1 class="birthday-title">
+                    Inshu's
+                    <br>
+                    <span>2nd Birthday</span>
+                </h1>
+
+                <div class="cake">
+                    🎂
+                </div>
+
+                <p class="hero-text">
+                    A tiny girl with a big smile
+                    is turning TWO! 🎀
+                </p>
+
+                <div class="scroll-hint">
+                    <span>Scroll to discover</span>
+                    <div>↓</div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MESSAGE -->
+
+        <section class="invite-section message-section">
+
+            <div class="section-inner reveal">
+
+                <div class="section-icon">
+                    💗
+                </div>
+
+                <p class="eyebrow">
+                    A LITTLE MESSAGE
+                </p>
+
+                <h2>
+                    Two years of<br>
+                    pure happiness.
+                </h2>
+
+                <p class="message-text">
+
+                    Two beautiful years of tiny giggles,
+                    little mischief, warm cuddles and
+                    countless memories.
+
+                    <br><br>
+
+                    And now it's time to celebrate
+                    our little Inshu turning TWO! 🎀
+
+                </p>
+
+                <div class="signature">
+                    With love from Mom & Dad ❤️
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EVENT DETAILS -->
+
+        <section class="invite-section details-section">
+
+            <div class="section-inner reveal">
+
+                <p class="eyebrow">
+                    SAVE THE DATE
+                </p>
+
+                <h2>
+                    Let's celebrate! 🎉
+                </h2>
+
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        📅
+                    </div>
+
+                    <div>
+
+                        <span>
+                            DATE
+                        </span>
+
+                        <strong>
+                            10 October 2026
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        🕢
+                    </div>
+
+                    <div>
+
+                        <span>
+                            TIME
+                        </span>
+
+                        <strong>
+                            7:30 PM – 11:00 PM
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        📍
+                    </div>
+
+                    <div>
+
+                        <span>
+                            VENUE
+                        </span>
+
+                        <strong>
+                            Victor Family Restaurant
+                        </strong>
+
+                        <small>
+                            Main Road, Khuntitoli, Simdega
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    id="mapsButton"
+                    class="map-button"
+                >
+                    📍 Get Directions
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- COUNTDOWN -->
+
+<section class="invite-section countdown-section">
+    <div class="section-inner reveal">
+
+        <div class="section-icon">⏳</div>
+
+        <p class="eyebrow">THE COUNTDOWN</p>
+
+        <h2 id="countdownTitle">
+            Until we celebrate Inshu! 🎀
+        </h2>
+
+        <div id="countdownBox" class="countdown">
+            <div class="count-box">
+                <strong id="days">00</strong>
+                <span>DAYS</span>
+            </div>
+
+            <div class="count-box">
+                <strong id="hours">00</strong>
+                <span>HOURS</span>
+            </div>
+
+            <div class="count-box">
+                <strong id="minutes">00</strong>
+                <span>MIN</span>
+            </div>
+
+            <div class="count-box">
+                <strong id="seconds">00</strong>
+                <span>SEC</span>
+            </div>
+        </div>
+
+        <div id="countdownMessage" class="countdown-message"></div>
+
+    </div>
+</section>
+
+       <!-- =========================
+     PHOTO STORY
+========================== -->
+
+<section class="invite-section photos-section">
+    <div class="section-inner reveal">
+
+        <p class="eyebrow">LITTLE MOMENTS</p>
+
+        <h2>
+            Our little<br>
+            birthday star ✨
+        </h2>
+
+        <p class="photo-intro">
+            Four little moments, one very special girl. ❤️
+        </p>
+
+        <div class="birthday-collage">
+            <img
+                src="images/photo1.png"
+                alt="Insha Turns Two"
+            >
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     FULLSCREEN PHOTO VIEWER
+========================== -->
+
+<div
+    id="photoViewer"
+    class="photo-viewer"
+>
+
+    <button
+        id="closeViewer"
+        class="close-viewer"
+        aria-label="Close photo"
+    >
+        ×
+    </button>
+
+    <img
+        id="viewerImage"
+        src=""
+        alt="Insha"
+    >
+
+    <div
+        id="viewerCounter"
+        class="viewer-counter"
+    >
+        1 / 5
+    </div>
+
+</div>
+
+    </main>
+
+<section class="invite-section final-section">
+    <div class="celebration-confetti" aria-hidden="true">
+        <span>🎀</span>
+        <span>✨</span>
+        <span>🎉</span>
+        <span>💗</span>
+        <span>⭐</span>
+        <span>🎈</span>
+        <span>✨</span>
+        <span>🎀</span>
+        <span>💖</span>
+        <span>🎉</span>
+        <span>⭐</span>
+        <span>🎈</span>
+    </div>
+
+    <div class="section-inner reveal">
+
+        <div class="final-stars">✦ ✧ ✦</div>
+
+        <p class="eyebrow">ONE LAST THING</p>
+
+        <h2>
+            <span id="finalGuestName"></span>,
+            <br>
+            we'll see you there! ❤️
+        </h2>
+
+        <div class="final-cake">🎂</div>
+
+        <p class="final-message">
+            Come make Inshu's 2nd birthday
+            <br>
+            even more special.
+        </p>
+
+        <div class="final-confetti">
+            🎈 ✨ 🎀 ✨ 🎈
+        </div>
+
+        <div class="final-signature">
+            With love,<br>
+            <span>Mom & Dad ❤️</span>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Background Music -->
+<audio id="backgroundMusic" loop preload="auto">
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Floating Music Button -->
+<button id="musicToggle" class="music-toggle" aria-label="Toggle music">
+    <span id="musicIcon">♫</span>
+</button>
+
+<!-- JavaScript -->
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
